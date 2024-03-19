@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+
+.top-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.crypto-logo {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  width: 30%;
+}
+
+.crypto-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  background-color: transparent;
+  color: white;
+  padding: 3px 10px;
+  list-style-type: none;
+}
+
+.first-value {
+  margin-right: 15px;
+  width: 50%;
+}
+
+.second-value {
+  width: 50%;
+}

@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  padding: 3px 10px;
+  color: white;
+  font-weight: 700;
+  background-color: #00e7ff;
+  opacity: 0.8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.first-column {
+  width: 70%;
+}
+
+.bottom-header-container {
+  display: flex;
+  width: 30%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  height: 100vh;
+}
+
+.main-heading {
+  color: #00e7ff;
+}
+
+.crypto-main-logo {
+  width: 50vw;
+}
+
+.table-container {
+  border: 2px solid #00e7ff;
+  border-radius: 10px;
+}
